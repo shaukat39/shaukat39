@@ -1,0 +1,60 @@
+*{box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+    }
+    
+    .grid-container {
+        display: grid;
+        height: 650px;
+        width: 600px;
+        grid-template-areas:
+          'header header header header header header'
+          'header header header header header header'
+          'Menu Menu Menu Menu Menu Menu'
+          'Box1 Box1 Box2 Box2 Sidebar Sidebar'
+          'Box1 Box1 Box2 Box2 Sidebar Sidebar'
+          ' Content Content Content Content Sidebar Sidebar'
+          ' Content Content Content Content Sidebar Sidebar'
+          ' Content Content Content Content Sidebar Sidebar'
+          ' Content Content Content Content Sidebar Sidebar'
+          'footer footer footer footer footer footer';
+        gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+      
+      .grid-container > div {
+        text-align: left;
+        padding: 20px 0;
+        font-size: 25px;
+        color: white;
+      
+      }
+
+
+
+
+
+
+.item1 { grid-area: header; 
+background-color: orange;
+}
+.item2 { grid-area: Menu;
+background-color: green;
+}
+.item3 { grid-area: Box1; 
+background-color: blueviolet;
+}
+.item4 { grid-area: Box2;
+background-color: pink;
+}
+.item5 { grid-area: Content;
+background-color:greenyellow;
+}
+.item6 { grid-area: Sidebar; 
+background-color: blue;
+}
+.item7 { grid-area: footer;
+background-color: rgb(88, 6, 6);
+}
