@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shaukat Hayat</h1>
-<h3 align="center">Learning Datascience as a first step to learn ML</h3>
+<h3 align="center">Datascience & Machine Learning</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shaukat39&label=Profile%20views&color=0e75b6&style=flat" alt="shaukat39" /> </p>
 
